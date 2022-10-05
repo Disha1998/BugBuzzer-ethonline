@@ -39,15 +39,15 @@ function NewQA() {
 
 
     return (
-        <div class="accordion w-100" id="basicAccordion">
+        <div className="accordion w-100" id="basicAccordion">
 
 
             {questionList && questionList.map((qList) => {
 
                 return (
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingOne">
+                            <button className="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
                                 data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
                                {qList.que}
                             </button>

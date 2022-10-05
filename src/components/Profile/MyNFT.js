@@ -84,7 +84,7 @@ function MyNft() {
                       <h5 className="card-title-readership mt-3 mb-3"> {nft.tokenId} {nft.symbol}</h5>
                         <button
                           type="button"
-                          class="btn btn-outline-success"
+                          className="btn btn-outline-success"
                            
                         >
                          Request a call

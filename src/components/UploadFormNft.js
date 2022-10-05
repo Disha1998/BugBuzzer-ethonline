@@ -247,7 +247,7 @@ function UploadFormNft() {
               onChange={authorNameEvent}
               placeholder="Your name"
               type="text"
-              class="input-field"
+              className="input-field"
               name="field1"
             />
           </label>{" "}
@@ -261,7 +261,7 @@ function UploadFormNft() {
               onChange={symbolEvent}
               placeholder="Enter symbol"
               type="text"
-              class="input-field"
+              className="input-field"
               name="field1"
               symbol={symbol}
             />
@@ -280,7 +280,7 @@ function UploadFormNft() {
               onChange={tokenPriceEvent}
               placeholder="Enter a token price"
               type="text"
-              class="input-field"
+              className="input-field"
               name="field1"
             />
           </label>{" "}
@@ -294,7 +294,7 @@ function UploadFormNft() {
               onChange={tokenQuantityEvent}
               placeholder="Enter quantity"
               type="text"
-              class="input-field"
+              className="input-field"
               name="field1"
             />
           </label>

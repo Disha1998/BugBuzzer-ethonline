@@ -12,53 +12,53 @@ function HomeCategory() {
                 </div>
 
                 <div className="homeCategory">
-                    <div class="container mainCategory">
-                        <div class="row rowcategory">
-                            <div class="col-md-4" style={{ height: "260px" }}>
+                    <div className="container mainCategory">
+                        <div className="row rowcategory">
+                            <div className="col-md-4" style={{ height: "260px" }}>
 
-                                <div class="profile-card-2"><img src="UXUI.png" />
+                                <div className="profile-card-2"><img src="UXUI.png" />
                                     <Link to="fanfiction">
-                                        <div class="profile-name">UI/UX</div></Link>
+                                        <div className="profile-name">UI/UX</div></Link>
                                 </div>
                             </div>
 
-                            <div class="col-md-4" style={{ height: "260px" }}>
+                            <div className="col-md-4" style={{ height: "260px" }}>
 
-                                <div class="profile-card-2">
+                                <div className="profile-card-2">
 
                                     <img src="../VULNERABILITIES.jpg" />
                                     <Link to="fantasy">
-                                        <div class="profile-name">SECURITY VULNERABILITIES</div>
+                                        <div className="profile-name">SECURITY VULNERABILITIES</div>
                                     </Link>
 
                                 </div>
                             </div>
-                            <div class="col-md-4" style={{ height: "260px" }}>
+                            <div className="col-md-4" style={{ height: "260px" }}>
 
-                                <div class="profile-card-2"><img src="../SMART CONTRACT.png" class="img img-responsive" />
+                                <div className="profile-card-2"><img src="../SMART CONTRACT.png" className="img img-responsive" />
                                     <Link to="smartcontract">
-                                        <div class="profile-name">SMART CONTRACT</div></Link>
+                                        <div className="profile-name">SMART CONTRACT</div></Link>
                                 </div>
                             </div>
-                            <div class="col-md-4" style={{ height: "260px" }}>
+                            <div className="col-md-4" style={{ height: "260px" }}>
 
-                                <div class="profile-card-2"><img src="crypto SCAMS.jpg" class="img img-responsive" />
+                                <div className="profile-card-2"><img src="crypto SCAMS.jpg" className="img img-responsive" />
                                     <Link to="mystery">
-                                        <div class="profile-name">CRYOTO SCAMS</div> </Link>
+                                        <div className="profile-name">CRYOTO SCAMS</div> </Link>
                                 </div>
                             </div>
-                            <div class="col-md-4" style={{ height: "260px" }}>
+                            <div className="col-md-4" style={{ height: "260px" }}>
 
-                                <div class="profile-card-2"><img src="ITO.jpeg" class="img img-responsive" />
+                                <div className="profile-card-2"><img src="ITO.jpeg" className="img img-responsive" />
                                     <Link to="romance">
-                                        <div class="profile-name">HARDWARE AND IOT</div> </Link>
+                                        <div className="profile-name">HARDWARE AND IOT</div> </Link>
                                 </div>
                             </div>
-                            <div class="col-md-4" style={{ height: "260px" }}>
+                            <div className="col-md-4" style={{ height: "260px" }}>
 
-                                <div class="profile-card-2"><img src="FUNCTIONAL.png" />
+                                <div className="profile-card-2"><img src="FUNCTIONAL.png" />
                                     <Link to="historical">
-                                        <div class="profile-name">FUNCTIONAL ISSUES</div> </Link>
+                                        <div className="profile-name">FUNCTIONAL ISSUES</div> </Link>
                                 </div>
                             </div>
 

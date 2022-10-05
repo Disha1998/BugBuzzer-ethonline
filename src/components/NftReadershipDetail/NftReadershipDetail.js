@@ -171,7 +171,7 @@ function NftReadershipDetail({ symbol }) {
                         {img.sold ? (
                           <button
                             type="button"
-                            class="btn btn-outline-success"
+                            className="btn btn-outline-success"
                             disabled
                           >
                             Sold Out
@@ -179,7 +179,7 @@ function NftReadershipDetail({ symbol }) {
                         ) : (
                           <button
                             type="button"
-                            class="btn btn-outline-success"
+                            className="btn btn-outline-success"
                             onClick={() => {
                               buyMarketItem(img.tokenId);
                             }}

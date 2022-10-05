@@ -123,7 +123,7 @@ export default function ModalContribute(props) {
         await getTokenBalance();
         handleClickOpen();
       }}
-        class="btn btn-outline-danger buy-story-btn">Buy Story</button>
+        className="btn btn-outline-danger buy-story-btn">Buy Story</button>
       <Dialog style={{ widht: "400px" }} open={open} onClose={handleClose}>
         <DialogTitle>Buy Story</DialogTitle>
         <div className='dialogUnderline'></div>

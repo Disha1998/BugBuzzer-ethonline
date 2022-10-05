@@ -244,7 +244,7 @@ function UploadForm() {
                                     onChange={(e) => setChargeble(e.target.value)}
                                     placeholder="Enter price "
                                     type="number"
-                                    class="input-field1"
+                                    className="input-field1"
                                     name="field1"
                                 />
                             ) : ""
@@ -263,7 +263,7 @@ function UploadForm() {
                                     onChange={(e) => setDiscount(e.target.value)}
                                     placeholder="Enter price  "
                                     type="number"
-                                    class="input-field1"
+                                    className="input-field1"
                                     name="field1"
                                 />
                             ) : ""
