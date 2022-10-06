@@ -84,7 +84,7 @@ export default function NavbarB() {
     //-------------- Unstoable Domain ----------------------------
     const unClient = new UAuth({
         clientID: "b2e25ace-e779-4092-8b68-aaf3b45e8031",
-        redirectUri: "https://bug-buzzer-ethonline22.vercel.app/",
+        redirectUri: "https://bug-buzzer-ethonline-yoer.vercel.app/",
         scope: "openid wallet"
     })
     async function inlog() {
