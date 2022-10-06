@@ -89,7 +89,7 @@ export default function NavbarB() {
     })
     async function inlog() {
         try {
-            const authorization = await unClient.loginWithPopup();
+            const authorization = await unClient.login();
             console.log(authorization);
             await localStorage.setItem("domain", authorization.idToken.sub)
             console.log(localStorage.getItem("domain"));
